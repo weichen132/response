@@ -6,7 +6,7 @@
 * 使用picture根据不同屏幕显示1600px,800px,480px的轮播图片<br>
 * gulp自动化压缩css ,js ,img<br>
 
-@media only screen and (max-width: 50em) {
+`@media only screen and (max-width: 50em) {
     .footer-content .brand {
         display: none;
     }
@@ -33,4 +33,4 @@
         font-size: 1.2rem;
         line-height: 2rem;
     }
-}
+}`
