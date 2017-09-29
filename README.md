@@ -4,6 +4,18 @@
 * @media,媒体查询<br>
 * Owl Carourse<br>
 * 使用picture根据不同屏幕显示1600px,800px,480px的轮播图片<br>
+```html
+<div class="ad">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <picture>
+                    <source srcset="img/ad001-l.png" media="(min-width:50em)">
+                    <source srcset="img/ad001-m.png" media="(min-width:30em)">
+                    <img src="img/ad001.png" alt="2015年度报告">
+                </picture>
+            </div>
+            <div class="item">
+```
 * gulp自动化压缩css ,js ,img<br>
 
 ```css
