@@ -4,3 +4,4 @@
 *@media,媒体查询<br>
 *Owl Carourse<br>
 *使用picture根据不同屏幕显示1600px,800px,480px的轮播图片<br>
+*gulp自动化压缩css ,js ,img
